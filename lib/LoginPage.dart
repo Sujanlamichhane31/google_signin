@@ -1,4 +1,5 @@
 import 'package:apple/first_screen.dart';
+import 'package:apple/registerEmail.dart';
 import 'package:apple/sign_in.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
@@ -20,6 +21,9 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               FlutterLogo(size: 150,),
               SizedBox(height: 50,),
+              RegisterEmail(),
+              SizedBox(height: 50,),
+  
               _signInButton(),
             ],
           ),
